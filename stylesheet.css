@@ -1,0 +1,64 @@
+
+
+header	{height:80px}
+
+.logo { 
+	height: 100px;
+	width: 200px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 5px;	
+	
+}
+
+.cart {
+	height: 100px;
+	width: 80px;
+	float: right; 
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+
+}
+
+.banner {
+	clear: both;
+	background-image: url("assets/images/flower-bkgd.jpg");
+	background-repeat: no-repeat;
+	min-height: 60vh;
+	position: relative;	
+	background-size: cover;
+
+}
+
+.girl	{
+background-image: url("assets/images/banner-girl.png");
+min-height:90%; 
+background-repeat: no-repeat;
+position: absolute; bottom: 0; left: 50%; width: 20%; 
+margin-left: -10%;
+background-size: cover;
+
+}
+
+.bannertext {
+position: absolute; 
+bottom: 35%; 
+width: 100%;
+line-height: 300%;
+text-align: center;
+}
+
+h1{
+     
+    color: white;
+    font-size: 20px;  
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+h2 {
+color: white;
+font-size: 60px;
+}
+
+h3	{ font-size: 20px; }
