@@ -1,25 +1,26 @@
-h1, h2, h3, h4, h5, h6, p, a { color: white; font-family: Raleway; font-weight: lighter; }
+h1, h2, h3, h4, h5, h6, p, a, li { color: white; font-family: Raleway; font-size: 20px; font-weight: lighter;}
 .black	{color: black;}
+.black2 {color: rgb(45, 45, 45);}
 .grey {color: grey;}
 .red{ color: red; }
 .textcenter {text-align: center;}
 .width25	{width: 25%;}
-.width50	{width: 50:;}
 .floatright {float: right;}
 .floatleft	{float:left;}
-.backgroundblack{background-color: black;}
-.height30vh {height: 40vh;}
-.height200vh {height: 200vh; }
-.lineheight200 {line-height: 200%; }
-.marginleft20 {margin-left: 30px;}
-
-header	{height:80px}
+.marginleft20 {margin-left: 20px;}
+.paddingbottom20 {padding-bottom: 20px;}
+.paddingbottom40 {padding-bottom: 40px;}
+.lineheight200 {line-height: 200%;}
+.lineheight300 {line-height: 300%;}
+.text-shadow {text-shadow: 1px 1px 4px dimgrey;}
+.uppercase {text-transform: uppercase;}
+.font25 {font-size: 25px;}
+.font15 {font-size: 15px;}
 
 .logo, .cart { 
-	height: 100px;
 	width: 200px;
 	margin-bottom: 10px;
-	margin-top: 5px;		
+	margin-top: 20px;		
 }
 
 .cart {
@@ -37,47 +38,121 @@ header	{height:80px}
 }
 
 .girl	{
-background-image: url("assets/images/banner-girl.png");
-min-height:90%; 
-background-repeat: no-repeat;
-position: absolute; bottom: 0; left: 50%; width: 20%; 
-margin-left: -10%;
-background-size: cover;
+	background-image: url("assets/images/banner-girl.png");
+	min-height:90%; 
+	background-repeat: 
+	no-repeat;
+	position: absolute; 
+	bottom: 0; left: 50%; width: 20%; 
+	margin-left: -10%;
+	background-size: cover;
 }
 
 .bannertext {
-position: absolute; 
-bottom: 35%; 
-width: 100%;
-line-height: 300%;
+	position: absolute; 
+	bottom: 35%; 
+	width: 100%;
+	padding-top: 300%;
 }
 
-h1 { 
+.text1 { 
     font-size: 20px;  
     text-transform: uppercase;
+    text-shadow: 1px 1px 4px dimgrey;
+
 }
 
-h2 {
-font-size: 60px;
-font-family: Playfair Display, serif;
-text-shadow: 1px 1px 4px dimgrey;
+.text2 {
+	font-size: 60px;
+	font-family: Playfair Display;
+	text-shadow: 1px 1px 4px dimgrey;
 }
 
 .about {
-	height: 25vh;
-	padding-top: 5vh;
-    line-height: 600%;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
 
-.style2 { font-size: 40px;
-font-family: Playfair Display;
+.style2 { 
+	font-size: 40px;
+	font-family: Playfair Display, serif; 
+	font-style: italic;
+	padding-bottom: 30px; 
+	padding-top: 30px;
 }
 
-span{ font-weight: bold; }
+span {
+	font-weight: bold; 
+	font-style: normal;
+}
 
-.info	{line-height: 150%; margin-top: 50px;}
-.phone	{line-height: 300%;}
-.social	{line-height: 200%;
-margin-right: 60px;
-margin-top:60px;}
+.clearfix{  
+	content: "";
+  	display: table;
+  	clear: both;
+  	width: 100%; 
+ }
+
+
+.signup	{ 
+	background-image: url("assets/images/wave-bkgd.jpg");
+	background-repeat: no-repeat; 
+ 	background-position: right bottom;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.text3{
+	padding-top: 30px;
+	padding-bottom:20px;}
+
+.text4 {
+	padding-bottom: 50px;
+}
+.form { 
+	background-color:white; 
+	width: 30%; 
+	margin-left: 35%; 
+	padding: 5px;
+	border-radius: 25px; 
+	font-size: 30px;
+}
+.email { 
+	font-size: 20px;
+	width: 60%; 
+	border-radius: 25px; 
+	padding:10px; 
+	border:none;
+}
+.submit {
+	font-size: 20px; 
+	width: 30%;
+	background-color: rgb(193, 66, 52); 
+	border-radius: 25px; 
+	padding:10px;
+	border:none; 
+	color:white;
+}
+
+.footer{ 
+	background-color: 
+	rgb(37, 37, 38); 
+	padding-bottom: 100px; 
+}
+
+.social, .info	{
+	margin-right: 60px; 
+	margin-top: 60px;
+}
+.phone {
+	line-height: 400%
+}
+.social {
+	line-height: 250%; 
+	padding-right: 60px;
+}
+.icon{
+	width: 20px; 
+	margin-right: 10px;
+}
 
