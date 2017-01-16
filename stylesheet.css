@@ -156,13 +156,14 @@ span {
 .text1 {font-size: 19px;}
 .text2 {font-size: 60px;}
 /*section for about*/
-.about p {display: inline;}
-.about div	{ text-align: center;width:90%; padding-left:5%;}
+.style2 {font-size: 40px;}
+.about p {display: inline; font-size: 25px;}
+.about div	{ text-align: center;width:95%; padding-left:2.5%;}
 /*section for products*/
 .items {width: 50%;display: inline-block;}
 /*section for signup*/
-.signup p {display: inline;}
-.text3-4 {margin-bottom: 30px; text-align: center; width:80%; padding-left:10%;}
+.signup p {display: inline; font-size: 25px;}
+.text3-4 {margin-bottom: 30px; text-align: center; width:95%; padding-left:2.5%;}
 /* footer */
 .social	{ margin-right: 0px; }
 
@@ -175,9 +176,13 @@ span {
 /*section for banner*/
 .banner {min-height: 40vh;}
 .text1 {font-size: 12.5px;}
-.text2 {font-size: 40px;}
+.text2 {font-size: 30px;}
 .about h3{ padding: 20px;}
+.style2 {font-size: 25px;}
+
+.about p {font-size: 15px;}
 /*section for signup*/
+.signup p {font-size: 15px;}
 .item  div{width: 100%; display: inline-block;}
 .form { width: 300px; }
 /* footer */
