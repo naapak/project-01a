@@ -1,4 +1,7 @@
-h1, h2, h3, h4, h5, h6, p, a, li { color: white; font-family: Raleway; font-size: 20px; font-weight: lighter;}
+
+/* Commom tags */
+h1, h2, h3, h4, h5, h6, p, a, li { color: white; font-family: Raleway; font-size: 20px;font-weight: 400;}
+.white	{color: white;}
 .black	{color: black;}
 .black2 {color: rgb(45, 45, 45);}
 .grey {color: grey;}
@@ -11,69 +14,61 @@ h1, h2, h3, h4, h5, h6, p, a, li { color: white; font-family: Raleway; font-size
 .paddingbottom20 {padding-bottom: 20px;}
 .paddingbottom40 {padding-bottom: 40px;}
 .lineheight200 {line-height: 200%;}
-.lineheight300 {line-height: 300%;}
-.text-shadow {text-shadow: 1px 1px 4px dimgrey;}
 .uppercase {text-transform: uppercase;}
 .font25 {font-size: 25px;}
 .font15 {font-size: 15px;}
+.inline-centre {display: inline-block;}
 
+.clearfix{  
+	content: "";
+  	display: table;
+  	clear: both;
+  	width: 100%;
+ }
+
+/* header */
 .logo, .cart { 
 	width: 200px;
 	margin-bottom: 10px;
 	margin-top: 20px;		
 }
-
 .cart {
 	width: 70px;
 	margin-right: 20px;
 }
-
+/*section for banner*/
 .banner {
-	clear: both;
-	background-image: url("assets/images/flower-bkgd.jpg");
-	background-repeat: no-repeat;
-	min-height: 60vh;
-	position: relative;	
-	background-size: cover;
+	min-height: 80vh;
+	max-width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.2) 100%,transparent), url("assets/images/banner-girl.png") center bottom no-repeat, url("assets/images/flower-bkgd.jpg");
+	background-size: cover, auto 90%, contain;
+	background-image: no-repeat, no-repeat, no-repeat;	
+	position: relative;
 }
-
-.girl	{
-	background-image: url("assets/images/banner-girl.png");
-	min-height:90%; 
-	background-repeat: 
-	no-repeat;
-	position: absolute; 
-	bottom: 0; left: 50%; width: 20%; 
-	margin-left: -10%;
-	background-size: cover;
-}
-
 .bannertext {
 	position: absolute; 
-	bottom: 35%; 
+	top: 35%; 
 	width: 100%;
-	padding-top: 300%;
 }
-
 .text1 { 
-    font-size: 20px;  
+    font-size: 25px;  
     text-transform: uppercase;
-    text-shadow: 1px 1px 4px dimgrey;
-
+    font-weight: 500;
 }
-
 .text2 {
-	font-size: 60px;
+	font-size: 80px;
 	font-family: Playfair Display;
-	text-shadow: 1px 1px 4px dimgrey;
+	font-weight: 500;	
 }
-
+/*section for about*/
 .about {
 	display: block;
 	padding-top: 30px;
 	padding-bottom: 40px;
+	width: 100%
 }
-
+/*section for products*/
+.about h3{ padding: 40px; }
 .style2 { 
 	font-size: 40px;
 	font-family: Playfair Display, serif; 
@@ -81,78 +76,119 @@ h1, h2, h3, h4, h5, h6, p, a, li { color: white; font-family: Raleway; font-size
 	padding-bottom: 30px; 
 	padding-top: 30px;
 }
-
 span {
-	font-weight: bold; 
+	font-weight: 700; 
 	font-style: normal;
 }
-
-.clearfix{  
-	content: "";
-  	display: table;
-  	clear: both;
-  	width: 100%; 
- }
-
-
-.signup	{ 
-	background-image: url("assets/images/wave-bkgd.jpg");
+/*section for signup*/
+.signup	{ 	
+	background: linear-gradient(rgba(0,0,0,0.2) 100%, transparent), url("assets/images/wave-bkgd.jpg");
 	background-repeat: no-repeat; 
  	background-position: right bottom;
-	padding-top: 50px;
-	padding-bottom: 50px;
+ 	padding-top: 50px;
+ 	max-width: 100%;
 }
-.text3{
-	padding-top: 30px;
-	padding-bottom:20px;}
-
-.text4 {
-	padding-bottom: 50px;
+.text3 {line-height: 200%;}
+.text4{
+	line-height: 200%;
+	padding-bottom: 50px; 
 }
 .form { 
-	background-color:white; 
-	width: 30%; 
-	margin-left: 35%; 
-	padding: 5px;
+	background: white; 	
+	width: 500px; 
 	border-radius: 25px; 
-	font-size: 30px;
+	padding: 5px; 
+    display: inline-block;
 }
-.email { 
-	font-size: 20px;
-	width: 60%; 
-	border-radius: 25px; 
+.email, .submit	{ 
+	border:none; 
 	padding:10px; 
-	border:none;
+	border-radius: 25px;
+	font-size: 15px;
+}
+.email { 	
+	width: 60%; 	
 }
 .submit {
-	font-size: 20px; 
 	width: 30%;
 	background-color: rgb(193, 66, 52); 
-	border-radius: 25px; 
-	padding:10px;
-	border:none; 
 	color:white;
 }
-
+/* footer */
 .footer{ 
 	background-color: 
 	rgb(37, 37, 38); 
 	padding-bottom: 100px; 
+	margin-top: 10px;
 }
-
-.social, .info	{
-	margin-right: 60px; 
+.info {
+	margin-left: 30px; 
 	margin-top: 60px;
 }
 .phone {
 	line-height: 400%
 }
+
 .social {
-	line-height: 250%; 
-	padding-right: 60px;
-}
-.icon{
-	width: 20px; 
-	margin-right: 10px;
+	margin-right: 60px; 
+	margin-top: 60px;
 }
 
+.social	ul { list-style-type: none; }
+.social a {
+	line-height: 200%; 
+	padding-right: 60px;
+    text-decoration: none;
+}
+.social i {
+	width: 20px; 
+	margin-right: 20px;
+}
+.social span {font-weight: lighter; }
+
+
+@media only screen and (max-width: 1050px) {
+/* header */
+.logo, .cart { width: 150px;margin-bottom: 15px; margin-top: 20px;}
+.cart {width: 47px; margin-right: 15px; }
+/*section for banner*/
+.banner { min-height: 60vh;}
+.text1 {font-size: 19px;}
+.text2 {font-size: 60px;}
+/*section for about*/
+.about p {display: inline;}
+.about div	{ text-align: center;width:90%; padding-left:5%;}
+/*section for products*/
+.items {width: 50%;display: inline-block;}
+/*section for signup*/
+.signup p {display: inline;}
+.text3-4 {margin-bottom: 30px; text-align: center; width:80%; padding-left:10%;}
+/* footer */
+.social	{ margin-right: 0px; }
+
+}
+
+@media only screen and (max-width: 600px) {
+/* header */
+.logo, .cart { width: 125px; margin-bottom: 15px; margin-top: 15px;}
+.cart {width: 50px; margin-right: 10px;}
+/*section for banner*/
+.banner {min-height: 40vh;}
+.text1 {font-size: 12.5px;}
+.text2 {font-size: 40px;}
+.about h3{ padding: 20px;}
+/*section for signup*/
+.item  div{width: 100%; display: inline-block;}
+.form { width: 300px; }
+/* footer */
+.footer div {float: none; width: 100%; text-align: center; margin-left:0; font-size: 10px; }
+.social	span { display: none; }
+.social	{content: "";
+  	display: table;
+  	clear: both;
+  	width: 100%; 
+  	display: inline-block;} 
+.mobilefloat-left {float:left; width:10%; padding-left:25%;}
+.mobilefloat-right {float:left; width:10%; }
+
+}
